@@ -126,6 +126,7 @@ strong {
 .principal-title p{
   font-size: 15px;
   color: #062735;
+  margin: 0;
 }
 .principal-title strong {
   text-transform: uppercase;
@@ -134,18 +135,43 @@ strong {
 .button-principal{
   width: 300px;
   height: 50px;
+  margin-top: 20px;
   background-color: #062735;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px 50px 20px 50px;
+  border-radius: 20px 20px 20px 20px;
+  transition: 0.5s;
+}
+.button-principal:hover{
+  background-color: #bddb6b;
 }
 .button-principal a{
+  text-transform: uppercase;
   color: white;
   font-weight: 700;
 }
 .button-principal a:hover{
   color: white;
+}
+.button-principal-2{
+  width: 300px;
+  height: 50px;
+  background-color: #06273500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 20px 20px 20px 20px;
+}
+.button-principal-2 a{
+  color: #062735;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.button-principal-2 a:hover{
+  color: #bddb6b;
 }
 .principal-subtitle {
   width: 50%;
@@ -795,7 +821,7 @@ strong {
   height: 250px;
   overflow: hidden;
   background: linear-gradient(0deg, #ffffff00 10%, #4de4ff00 20%),
-  url(/assets/images/pexels-tara-winstead-8386369.jpg);
+  url(/assets/images/comite-ia-images/pexels-tara-winstead-8386369.jpg);
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
